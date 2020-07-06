@@ -1,0 +1,11 @@
+version: "3"
+service: 
+  sample1:
+    image: "apache2"
+    ports:
+    - "92:80"
+ 
+  sample2:
+    image: "nginx"
+    ports:
+    - "90:80"
